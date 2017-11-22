@@ -1,0 +1,45 @@
+ body {
+            padding-top: 60px;
+        }
+        
+        .container-fluid {
+            background-color: aqua;
+        }
+        
+        .colcol {
+            border: 1px solid black;
+            /*height: 200px;*/
+        }
+        
+        .navbar-fixed-top {
+            background-color: darkblue;
+        }
+        
+        .carousel-item img {
+            width: 100%;
+        }
+        
+        .carousel-indicators li {
+            background-color: black;
+        }
+        
+        .carousel-indicators .active {
+            background-color: #444;
+        }
+        
+        @media(max-width:34em) {
+            body {
+                padding-top: 50px;
+            }
+            .navbar .navbar-nav>.nav-item {
+                float: none;
+                margin-left: .1rem;
+            }
+            .navbar .navbar-nav {
+                float: none !important;
+            }
+            .navbar .collapse.in,
+            .navbar .collapsing {
+                clear: both;
+            }
+        }
