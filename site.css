@@ -12,7 +12,7 @@
         }
         
         .navbar-fixed-top {
-            background-color: darkblue;
+            background-color: blue;
         }
         
         .carousel-item img {
@@ -43,3 +43,8 @@
                 clear: both;
             }
         }
+
+.center {
+    float: none;
+    margin: 0 auto;
+}
